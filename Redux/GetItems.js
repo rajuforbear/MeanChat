@@ -1,4 +1,4 @@
-import {View,Text,FlatList,StyleSheet,Image,TouchableOpacity} from 'react-native'
+import { View, Text, FlatList, StyleSheet, Image, TouchableOpacity } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { windowsHeigh, windowsWidht } from '../Instagram/Components/Deimesions';
 import { WindowsWidth } from '../Units/Diementsions';
@@ -69,7 +69,7 @@ const GetItems = () => {
     }
 
     setCategoryData(arr)
-
+     console.log(arr)
 
 
   }
@@ -115,6 +115,7 @@ const GetItems = () => {
                     </View>
                   </View>
                 </View>
+
               </View>
             )
           }}
